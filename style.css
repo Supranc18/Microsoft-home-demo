@@ -24,16 +24,19 @@ header{
     align-items: center;
     gap: 27px;
 }
- li{
+ ul li{
     font-size: 12px;
     list-style: none;
     cursor: pointer;
     padding: 2px;
 }
-li:hover{
+ul li:hover{
     border-top: 3px solid rgb(255, 255, 255);
     border-bottom: 3px solid black ;
   
+}
+ol li:hover{
+    border:none
 }
 .rightnav ul{
     display: flex;
