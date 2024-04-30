@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    padding: 18px 80px;
+    width: 100%;
+    height:25px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftnav img{
+    width: 110px;
+
+}
+.leftnav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+ li{
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    padding: 2px;
+}
+li:hover{
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid black ;
+  
+}
+.rightnav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.background{
+    background-image: url(/assets/img/showcase.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1500px;
+    height: 400px;
+    margin: 25px 80px;
+    padding-bottom: 30px;
+    gap: 15px;   
+}
+.background h1{
+    font-size: 22px;
+}
+.background p{
+    font-size: 13px;
+}
+.background button{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: rgb(39, 36, 36);
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.background button:hover{
+    background-color: rgb(68, 68, 68);
+}
+.more{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 0px 80px;
+    gap: 10px;
+   
+}
+.box{
+    max-width: 270px;
+}
+ img{
+   width: 100%;
+}
+.box h2{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.box p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.box a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    color: #0067b8;
+    align-items: center;
+   
+}
+.box a:hover{
+    gap:15px;
+}
+.join{
+    background-image: url(/assets/img/xbox.png);
+    background-size: cover;
+    max-width:87%;
+    height: 350px;
+    margin: 15px 80px;
+    display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding:50px 30px;
+
+}
+.join p{
+    width: 40%;
+}
+.learn{
+    background-image: url(/assets/img/carbon.jpg);
+    background-size: cover;
+    max-width: 87%;
+    height: 400px;
+    margin: 15px 80px;
+    display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   padding:35px;
+   color: white;
+}
+.learn p{
+    width: 45vw;
+}
+.learn button{
+    background-color: white;
+    color: black;
+}
+.learn button:hover{
+    background-color: rgb(228, 220, 220);
+    
+}
+.social{
+    margin:  20px 80px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.social img{
+    width: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #616161;
+    padding-left: 80px;
+}
+.up{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 80px;
+   
+
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    width: 110px;
+    
+    
+}
+.info h3{
+    font-size: 13px;
+
+}
+.info p{
+    font-size: 12px;
+    cursor: pointer;
+}
+.down{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.down .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+
+}
+.down p{
+    font-size: 11px;
+   
+}
+
+.right{
+    flex-wrap: wrap;
+    display: flex;
+   gap: 35px;
+
+}
+@media screen and (max-width: 900px){
+    .leftnav ul li{
+        display: none;
+    }
+    .none{
+        display: block !important;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .background{
+        background-position-x:60% ;
+    }
+    .background h1{
+        font-size: 15px;
+    }
+    .background p{
+        font-size: 8px;
+    }
+    .background button{
+        font-size: 10px;
+        padding: 5px 10px;
+       
+    }
+}
+  
